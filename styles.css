@@ -509,4 +509,170 @@ div.footer h6 {
     border-radius: 3px;
     letter-spacing: 2px;
   }
+
+  div.hero-content-heading {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .nav-bar ul {
+    display: none;
+    width: 100vw;
+    flex-direction: column;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav-bar ul.show {
+    display: flex;
+  }
+
+  div.logo {
+    font-size: 1.4rem;
+    color: #bcc3c7;
+  }
+
+  div.hero-background {
+    padding: 3rem;
+  }
+
+  div.background h4 {
+    padding: 1.2rem;
+    font-size: 0.8rem;
+  }
+
+  div.background p {
+    padding-left: 1rem;
+    font-size: 0.6rem;
+  }
+
+  div.hero-background-pos {
+    display: none;
+  }
+
+  div.snapshot-team {
+    padding: 2rem;
+    background: #f0f0f0;
+    text-align: center;
+  }
+
+  div.snapshot-team h2 {
+    font-size: 1rem;
+    margin-top: 100px;
+  }
+
+  div.snapshot-team p {
+    font-size: 0.8rem;
+  }
+
+  div.snapchat-box {
+    padding: 2rem 0;
+  }
+
+  div.snapshot-box-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.box1 {
+    width: 300px;
+    height: 230px;
+  }
+
+  div.box3 {
+    width: 300px;
+    height: 230px;
+  }
+
+  div.circle {
+    display: flex;
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #bcc3c7;
+    margin-top: 2rem;
+  }
+
+  div.gallery-content h4 {
+    color: #555657;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  div.gallery-content p {
+    color: #a6a5aa;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    padding-top: 0.8rem;
+  }
+
+  div.footer-content h4 {
+    color: #bcc3c7;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  div.footer-content p {
+    color: #88949b;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    padding-top: 0.8rem;
+  }
+  div.hero-section {
+    background: #304353;
+    padding: 3rem 10rem;
+  }
+
+  div.hero-content-heading {
+    text-align: center;
+  }
+
+  div.hero-content-heading h3 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    color: #bcc3c7;
+    margin-top: 0;
+  }
+
+  div.hero-content-heading p {
+    text-align: center;
+    padding-top: 0.5rem;
+    color: #88949b;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: 300;
+    width: 400%;
+  }
+
+  div.hero-content-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2.5rem;
+  }
+
+  div.hero-content-btn a {
+    background: #e44c65;
+    text-decoration: none;
+    color: #bcc3c7;
+    font-size: 0.9rem;
+    padding: 10px 30px;
+    border-radius: 3px;
+    letter-spacing: 2px;
+  }
+
+  div.hero-content-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
