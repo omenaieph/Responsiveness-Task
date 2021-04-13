@@ -554,7 +554,7 @@ div.footer h6 {
   }
 
   div.snapshot-team {
-    padding: 2rem;
+    padding: 0.5rem;
     background: #f0f0f0;
     text-align: center;
   }
@@ -663,10 +663,10 @@ div.footer h6 {
     background: #e44c65;
     text-decoration: none;
     color: #bcc3c7;
-    font-size: 0.9rem;
-    padding: 10px 30px;
+    font-size: 0.8rem;
+    padding: 10px 55px;
     border-radius: 3px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
   }
 
   div.hero-content-heading {
@@ -674,5 +674,47 @@ div.footer h6 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  input[type="text"] {
+    margin-right: 10px;
+    padding: 10px 20px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #bcc3c7;
+    background: transparent;
+    color: #f0f0f0;
+    font-size: 1rem;
+    border-radius: 2px;
+  }
+
+  input[type="email"] {
+    margin-right: 10px;
+    padding: 10px 20px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #bcc3c7;
+    background: transparent;
+    color: #f0f0f0;
+    font-size: 1rem;
+    border-radius: 2px;
+  }
+
+  div.footer-input {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+  }
+
+  textarea {
+    width: 80%;
+    height: 150px;
+    padding: 0.5rem;
+    outline: none;
+    border: 1px solid #bcc3c7;
+    background: transparent;
+    color: #f0f0f0;
   }
 }
